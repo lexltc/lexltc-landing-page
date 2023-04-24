@@ -1,4 +1,7 @@
 import profilePic from './profilepic.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope  } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 type AreaOfFocus = {
   iconLink: string,
@@ -100,31 +103,38 @@ const App = () => {
             <Panel className="flex-1" title="Backend" areasList={frontendFocus} />
           </div>
           <div className="text-center py-16">
-            <p>See more of my real-world work experience in my <a href="https://www.linkedin.com/in/xavierlexusconcepcion/">LinkedIn profile</a></p>
-          </div>
-        </div>
-        <div>
-          <SectionTitle title="Connect with me" />
-          <div className="flex gap-8 justify-center mb-8">
-            {socials.map((social) => {
-              return <SocialBlock key={social.title} {...social} />
-            })}
-          </div>
-          <div className="text-center text-gray-500 hover:text-black">
-            <a href="mailto:xlexus.concepcion@gmail.com">xlexus.concepcion@gmail.com</a>
+            <p>See more of my real-world work experience in my <a className="text-blue-900" href="https://www.linkedin.com/in/xavierlexusconcepcion/">LinkedIn profile</a></p>
           </div>
         </div>
         <div>
           <div className="flex w-full justify-center">
-            <div className="rounded-lg drop-shadow-lg flex h-[319px] w-[506px] bg-zinc-900">
-              <div className="rounded-l-lg bg-gradient-to-r from-red-500 to-yellow-500 text-white font-extrabold p-4 text-[36px]">
+            <div className="rounded-xl drop-shadow-lg flex h-[319px] w-[506px] bg-zinc-900">
+              <div className="rounded-l-xl bg-gradient-to-r from-red-500 to-yellow-500 text-white font-extrabold px-4 py-8 text-[36px]">
                 <div>CONNECT</div>
                 <div>WITH</div>
                 <div>ME.</div>
               </div>
-              <div className="bg-zinc-900 p-4 rounded-r">
+              <div className="bg-zinc-900 px-4 py-8 rounded-r">
                 <div className="font-extrabold text-[36px]" style={gradientText(true)}>LEXLTC</div>
-                <a className="text-white" href="mailto:xlexus.concepcion@gmail.com">xlexus.concepcion@gmail.com</a>
+                <a className="text-white" href="mailto:xlexus.concepcion@gmail.com" target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon className="w-[16px]" icon={faEnvelope} />
+                  <span className="ml-4">xlexus.concepcion@gmail.com</span>
+                </a>
+                <div className="flex flex-col gap-2 py-4">
+                  <a className="text-white" href="https://www.linkedin.com/in/xavierlexusconcepcion/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon className="w-[16px]" icon={faLinkedin} />
+                    <span className="ml-4">xavierlexusconcepcion</span>
+                  </a>
+                  <a className="text-white" href="https://github.com/lexltc" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon className="w-[16px]" icon={faGithub} />
+                    <span className="ml-4">lexltc</span>
+                  </a>
+                  <a className="text-white" href="https://www.instagram.com/lexltc/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon className="w-[16px]" icon={faInstagram} />
+                    <span className="ml-4">lexltc</span>
+                  </a>
+                </div>
+                
               </div>
             </div>
             
