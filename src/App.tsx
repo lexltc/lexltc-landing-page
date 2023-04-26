@@ -3,6 +3,7 @@ import Skills from './components/sections/Skills'
 import { gradientText } from './styles'
 import ConnectWithMe from './components/sections/ConnectWithMe'
 import AboutWebsite from './components/sections/AboutWebsite'
+import Highlights from './components/sections/Highlights'
 
 type AreaOfFocus = {
     iconLink: string
@@ -48,44 +49,6 @@ const socials: Socials[] = [
     },
 ]
 
-const Panel = ({
-    areasList,
-    title,
-    children,
-    className,
-}: {
-    areasList: AreaOfFocus[]
-    title?: string
-    children?: React.ReactNode
-    className?: string
-}) => {
-    return (
-        <div className={`bg-white drop-shadow-lg p-8 rounded ${className}`}>
-            <div className="text-center text-lg font-extrabold mb-8">
-                {title}
-            </div>
-            {title && <hr className="my-8" />}
-            {areasList.map((area) => {
-                return (
-                    <div key={area.label}>
-                        {area.iconLink && (
-                            <img
-                                className="inline mr-4"
-                                src={area.iconLink}
-                                alt={area.label}
-                                height="50"
-                                width="50"
-                            />
-                        )}
-                        {area.label}
-                    </div>
-                )
-            })}
-            {children}
-        </div>
-    )
-}
-
 const App = () => {
     return (
         <div className="bg-color-white">
@@ -130,6 +93,7 @@ const App = () => {
                     </div>
                 </div>
                 <Skills />
+                <Highlights />
                 <ConnectWithMe />
                 <AboutWebsite />
             </div>
