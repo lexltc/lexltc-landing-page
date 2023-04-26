@@ -3,13 +3,31 @@ import SectionTitle from '../SectionTitle'
 
 const skillsList = {
     tier1: {
-        skills: ['React', 'Typescript', 'Tailwind CSS', 'Next', 'GraphQL', 'Node.js', 'Android']
+        skills: [
+            'React',
+            'Typescript',
+            'Tailwind CSS',
+            'Next',
+            'GraphQL',
+            'Android',
+        ],
     },
     tier2: {
-        skills: ['Rust', 'C#.NET', 'Vue', 'Nuxt', 'Angular']
+        skills: [
+            'Rust',
+            'C#.NET',
+            'Node.js',
+            'Vue',
+            'Nuxt',
+            'Angular',
+            'Wordpress',
+            'Java',
+        ],
+    },
+    tier3: {
+        skills: ['PHP', 'Python'],
     },
 }
-
 
 const Skills = () => {
     return (
@@ -22,6 +40,9 @@ const Skills = () => {
                     </div>
                     <div className="text-white text-2xl font-bold">
                         {skillsList.tier2.skills.join(' • ')}
+                    </div>
+                    <div className="text-white text-xl font-bold">
+                        {skillsList.tier3.skills.join(' • ')}
                     </div>
                 </div>
                 <div className="text-center">

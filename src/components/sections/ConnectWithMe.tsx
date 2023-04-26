@@ -6,16 +6,18 @@ import {
     faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 import { gradientText } from '../../styles'
+import SectionTitle from '../SectionTitle'
 
 const ConnectWithMe = () => {
     return (
         <div>
+            <SectionTitle title="Connect with me" />
             <div className="flex w-full justify-center">
                 <div className="rounded-xl drop-shadow-lg flex h-[319px] w-[506px] bg-zinc-900">
                     <div className="rounded-l-xl bg-gradient-to-r from-red-500 to-yellow-500 text-white font-extrabold px-4 py-8 text-[36px]">
                         <div>CONNECT</div>
                         <div>WITH</div>
-                        <div>ME.</div>
+                        <div>ME</div>
                     </div>
                     <div className="bg-zinc-900 px-4 py-8 rounded-r">
                         <div

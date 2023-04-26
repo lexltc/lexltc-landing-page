@@ -1,8 +1,8 @@
 import profilePic from './profilepic.jpg'
 import Skills from './components/sections/Skills'
-import SectionTitle from './components/SectionTitle'
 import { gradientText } from './styles'
 import ConnectWithMe from './components/sections/ConnectWithMe'
+import AboutWebsite from './components/sections/AboutWebsite'
 
 type AreaOfFocus = {
     iconLink: string
@@ -109,7 +109,7 @@ const App = () => {
                 <div className="font-extrabold text-gray-700">Lex</div>
             </div>
 
-            <div className="flex flex-col gap-32">
+            <div className="flex flex-col gap-32 pb-16">
                 <div>
                     <h2
                         className="text-[48px] font-extrabold text-gray-700 text-center mb-16"
@@ -131,6 +131,7 @@ const App = () => {
                 </div>
                 <Skills />
                 <ConnectWithMe />
+                <AboutWebsite />
             </div>
         </div>
     )

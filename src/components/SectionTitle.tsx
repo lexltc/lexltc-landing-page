@@ -1,8 +1,17 @@
-import { CSSProperties } from "react"
+import { CSSProperties } from 'react'
 
-const SectionTitle = ({ title, style }: { title: string, style?: CSSProperties }) => {
+const SectionTitle = ({
+    title,
+    style,
+}: {
+    title: string
+    style?: CSSProperties
+}) => {
     return (
-        <h2 className="text-2xl font-extrabold text-gray-700 text-center mb-16" style={style}>
+        <h2
+            className="text-2xl font-extrabold text-gray-700 text-center mb-16"
+            style={style}
+        >
             {title}
         </h2>
     )
