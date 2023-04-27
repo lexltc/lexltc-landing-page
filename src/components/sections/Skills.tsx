@@ -14,6 +14,7 @@ const skillsList = {
     },
     tier2: {
         skills: [
+            'JavaScript',
             'Rust',
             'C#.NET',
             'Node.js',
@@ -22,6 +23,8 @@ const skillsList = {
             'Angular',
             'Wordpress',
             'Java',
+            'AWS',
+            'Docker',
         ],
     },
     tier3: {
@@ -31,17 +34,17 @@ const skillsList = {
 
 const Skills = () => {
     return (
-        <div className="w-full bg-zinc-900">
+        <div className="w-full bg-zinc-900 py-8">
             <div className="container mx-auto p-8">
                 <SectionTitle title="Areas of focus" style={gradientText()} />
                 <div className="w-full text-center mb-8">
                     <div className="text-white text-[36px] font-bold">
                         {skillsList.tier1.skills.join(' • ')}
                     </div>
-                    <div className="text-white text-2xl font-bold">
+                    <div className="text-gray-300 text-2xl font-bold">
                         {skillsList.tier2.skills.join(' • ')}
                     </div>
-                    <div className="text-white text-xl font-bold">
+                    <div className="text-gray-400 text-xl font-bold">
                         {skillsList.tier3.skills.join(' • ')}
                     </div>
                 </div>
