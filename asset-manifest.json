@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e3c2984.css",
-    "main.js": "/static/js/main.439b3623.js",
-    "static/js/787.1e15de6c.chunk.js": "/static/js/787.1e15de6c.chunk.js",
-    "static/media/lfc-thumb.jpg": "/static/media/lfc-thumb.53173b8a850b4356ee7c.jpg",
-    "static/media/cover.jpg": "/static/media/cover.22cf20136cdc265bf238.jpg",
-    "static/media/profilepic.jpg": "/static/media/profilepic.15ddb403ffda25062651.jpg",
-    "static/media/react-logo.png": "/static/media/react-logo.09df55c21bdb35711dd0.png",
-    "static/media/exceed-thumb.png": "/static/media/exceed-thumb.5b7d1d7946dc53a2f2d9.png",
-    "static/media/tailwindcss-logo.png": "/static/media/tailwindcss-logo.9187d687b1f8eca87146.png",
-    "static/media/typescript-logo.svg": "/static/media/typescript-logo.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
-    "index.html": "/index.html",
-    "main.1e3c2984.css.map": "/static/css/main.1e3c2984.css.map",
-    "main.439b3623.js.map": "/static/js/main.439b3623.js.map",
-    "787.1e15de6c.chunk.js.map": "/static/js/787.1e15de6c.chunk.js.map"
+    "main.css": "/lexltc-landing-page/static/css/main.a1c1ddb3.css",
+    "main.js": "/lexltc-landing-page/static/js/main.15837cae.js",
+    "static/js/787.1e15de6c.chunk.js": "/lexltc-landing-page/static/js/787.1e15de6c.chunk.js",
+    "static/media/lfc-thumb.jpg": "/lexltc-landing-page/static/media/lfc-thumb.53173b8a850b4356ee7c.jpg",
+    "static/media/cover.jpg": "/lexltc-landing-page/static/media/cover.22cf20136cdc265bf238.jpg",
+    "static/media/profilepic.jpg": "/lexltc-landing-page/static/media/profilepic.15ddb403ffda25062651.jpg",
+    "static/media/react-logo.png": "/lexltc-landing-page/static/media/react-logo.09df55c21bdb35711dd0.png",
+    "static/media/exceed-thumb.png": "/lexltc-landing-page/static/media/exceed-thumb.5b7d1d7946dc53a2f2d9.png",
+    "static/media/tailwindcss-logo.png": "/lexltc-landing-page/static/media/tailwindcss-logo.9187d687b1f8eca87146.png",
+    "static/media/typescript-logo.svg": "/lexltc-landing-page/static/media/typescript-logo.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "index.html": "/lexltc-landing-page/index.html",
+    "main.a1c1ddb3.css.map": "/lexltc-landing-page/static/css/main.a1c1ddb3.css.map",
+    "main.15837cae.js.map": "/lexltc-landing-page/static/js/main.15837cae.js.map",
+    "787.1e15de6c.chunk.js.map": "/lexltc-landing-page/static/js/787.1e15de6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e3c2984.css",
-    "static/js/main.439b3623.js"
+    "static/css/main.a1c1ddb3.css",
+    "static/js/main.15837cae.js"
   ]
 }
