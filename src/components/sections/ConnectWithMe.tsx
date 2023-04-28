@@ -19,7 +19,7 @@ const ConnectWithMe = () => {
                         <div>WITH</div>
                         <div>ME</div>
                     </div>
-                    <div className="bg-zinc-900 px-4 py-8 rounded-r">
+                    <div className="px-4 py-8 rounded-r">
                         <div
                             className="font-extrabold text-[36px]"
                             style={gradientText(true)}
