@@ -5,50 +5,6 @@ import ConnectWithMe from './components/sections/ConnectWithMe'
 import AboutWebsite from './components/sections/AboutWebsite'
 import Highlights from './components/sections/Highlights'
 
-type AreaOfFocus = {
-    iconLink: string
-    label: string
-}
-
-type Socials = {
-    title: string
-    iconLink: string
-    username: string
-    link: string
-}
-
-const frontendFocus: AreaOfFocus[] = [
-    {
-        iconLink:
-            'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
-        label: 'React',
-    },
-]
-
-const socials: Socials[] = [
-    {
-        title: 'LinkedIn',
-        iconLink:
-            'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg',
-        username: 'xavierlexusconcepcion',
-        link: 'https://www.linkedin.com/in/xavierlexusconcepcion/',
-    },
-    {
-        title: 'Instagram',
-        iconLink:
-            'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg',
-        username: 'lexltc',
-        link: 'https://www.instagram.com/lexltc/',
-    },
-    {
-        title: 'Github',
-        iconLink:
-            'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
-        username: 'lextlc',
-        link: 'https://github.com/lexltc',
-    },
-]
-
 const App = () => {
     return (
         <div className="bg-color-white">
@@ -97,6 +53,7 @@ const App = () => {
                 <ConnectWithMe />
                 <AboutWebsite />
             </div>
+            <div className="bg-zinc-900 w-100 h-32" />
         </div>
     )
 }
