@@ -8,12 +8,17 @@ import {
 import { gradientText } from '../../styles'
 import SectionTitle from '../SectionTitle'
 
+const cardBefore =
+    'before:content-[""] before:absolute before:block before:top-0 before:left-0 before:w-[70%] before:h-[100%] before:bg-gradient-to-r before:from-transparent before:via-[#ffffff71] before:to-transparent before:translate-x-[-180px] before:skew-x-[-20deg] before:transition-transform before:duration-[0.4s] hover:before:translate-x-[400px] hover:before:skew-x-[-20deg]'
+
 const ConnectWithMe = () => {
     return (
         <div className="px-2">
             <SectionTitle title="Connect with me" />
             <div className="flex w-full justify-center">
-                <div className="rounded-xl drop-shadow-lg flex w-full aspect-[1.59] max-w-[506px] bg-zinc-900">
+                <div
+                    className={`rounded-xl drop-shadow-lg flex w-full aspect-[1.59] max-w-[506px] bg-zinc-900 ${cardBefore}`}
+                >
                     <div className="rounded-l-xl bg-gradient-to-r from-red-500 to-yellow-500 text-white font-extrabold px-4 py-8 text-[18px] sm:text-[36px]">
                         <div>CONNECT</div>
                         <div>WITH</div>
