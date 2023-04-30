@@ -28,15 +28,15 @@ const App = () => {
                 <div className="font-extrabold text-gray-700">Lex</div>
             </div>
 
-            <div className="flex flex-col gap-32 pb-16">
+            <div className="flex flex-col gap-16 md:gap-32 pb-16">
                 <div>
                     <h2
-                        className="text-[48px] font-extrabold text-gray-700 text-center mb-16"
+                        className="text-[36px] md:text-[48px] font-extrabold text-gray-700 text-center mb-16"
                         style={gradientText()}
                     >
                         Software Engineer • Web • Full-Stack
                     </h2>
-                    <div className="relative flex justify-center text-center text-2xl text-gray-700">
+                    <div className="relative flex justify-center text-center text-xl md:text-2xl text-gray-700">
                         <div className="w-8/12">
                             Creative and innovative developer with background in
                             Agile development and leading initiatives. Skilled
