@@ -4,12 +4,50 @@ import { gradientText } from './styles'
 import ConnectWithMe from './components/sections/ConnectWithMe'
 import AboutWebsite from './components/sections/AboutWebsite'
 import Highlights from './components/sections/Highlights'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faLinkedin,
+    faGithub,
+    faInstagram,
+} from '@fortawesome/free-brands-svg-icons'
 
 const App = () => {
     return (
         <div className="bg-color-white">
-            <header className="bg-black/70 backdrop-blur text-white p-4 md:p-8 fixed w-full right-0 left-0 top-0 text-lg font-bold z-10">
-                LEXLTC
+            <header className="flex justify-between bg-black/70 backdrop-blur text-white p-4 md:p-8 fixed w-full right-0 left-0 top-0 text-lg font-bold z-10">
+                <span>LEXLTC</span>
+                <div className="flex gap-4">
+                    <a
+                        className="text-white"
+                        href="https://www.linkedin.com/in/xavierlexusconcepcion/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon
+                            className="w-[16px]"
+                            icon={faLinkedin}
+                        />
+                    </a>
+                    <a
+                        className="text-white"
+                        href="https://github.com/lexltc"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon className="w-[16px]" icon={faGithub} />
+                    </a>
+                    <a
+                        className="text-white"
+                        href="https://www.instagram.com/lexltc/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FontAwesomeIcon
+                            className="w-[16px]"
+                            icon={faInstagram}
+                        />
+                    </a>
+                </div>
             </header>
             <div className="relative drop-shadow-2xl w-full bg-[url('./cover.jpg')] h-[300px] md:min-h-[600px] bg-cover bg-center"></div>
             <div className="relative flex justify-center w-full mt-[-75px] md:mt-[-150px] mb-4">
