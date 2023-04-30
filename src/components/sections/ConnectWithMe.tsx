@@ -36,10 +36,10 @@ const ConnectWithMe = () => {
                             rel="noreferrer"
                         >
                             <FontAwesomeIcon
-                                className="w-[16px]"
+                                className="w-[16px] hidden md:inline-block mr-4"
                                 icon={faEnvelope}
                             />
-                            <span className="ml-4">
+                            <span>
                                 xlexus.concepcion@gmail.com
                             </span>
                         </a>
@@ -51,10 +51,10 @@ const ConnectWithMe = () => {
                                 rel="noreferrer"
                             >
                                 <FontAwesomeIcon
-                                    className="w-[16px]"
+                                    className="w-[16px] mr-4"
                                     icon={faLinkedin}
                                 />
-                                <span className="ml-4">
+                                <span>
                                     xavierlexusconcepcion
                                 </span>
                             </a>
@@ -65,10 +65,10 @@ const ConnectWithMe = () => {
                                 rel="noreferrer"
                             >
                                 <FontAwesomeIcon
-                                    className="w-[16px]"
+                                    className="w-[16px] mr-4"
                                     icon={faGithub}
                                 />
-                                <span className="ml-4">lexltc</span>
+                                <span>lexltc</span>
                             </a>
                             <a
                                 className="text-white"
@@ -77,10 +77,10 @@ const ConnectWithMe = () => {
                                 rel="noreferrer"
                             >
                                 <FontAwesomeIcon
-                                    className="w-[16px]"
+                                    className="w-[16px] mr-4"
                                     icon={faInstagram}
                                 />
-                                <span className="ml-4">lexltc</span>
+                                <span>lexltc</span>
                             </a>
                         </div>
                     </div>

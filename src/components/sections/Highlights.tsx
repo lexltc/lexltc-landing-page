@@ -65,7 +65,7 @@ const Highlights = () => {
     return (
         <div>
             <SectionTitle title="Other highlights" />
-            <div className="container mx-auto flex gap-8 justify-center">
+            <div className="container mx-auto flex gap-8 justify-center flex-wrap">
                 {highlightsList.map((highlight) => (
                     <HighlightItem {...highlight} />
                 ))}

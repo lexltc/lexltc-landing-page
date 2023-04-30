@@ -7,8 +7,8 @@ const AboutWebsite = () => {
     return (
         <div>
             <SectionTitle title="About this web page" />
-            <div className="container mx-auto flex">
-                <div className="w-1/2 flex flex-wrap justify-center gap-10">
+            <div className="container mx-auto flex flex-col md:flex-row gap-8 md:gap-0">
+                <div className="md:w-1/2 flex flex-wrap justify-center gap-10">
                     <img
                         src={reactLogo}
                         alt="React logo"
@@ -28,8 +28,8 @@ const AboutWebsite = () => {
                         width="100"
                     />
                 </div>
-                <div className="w-1/2">
-                    <p className="text-lg text-gray-700">
+                <div className="md:w-1/2">
+                    <p className="text-lg text-gray-700 px-4">
                         I have created this web page as a profile and to
                         showcase my skills. I designed and developed this whole
                         page mainly using React, TypeScript, and Tailwind CSS.

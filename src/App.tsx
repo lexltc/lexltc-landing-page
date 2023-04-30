@@ -8,20 +8,20 @@ import Highlights from './components/sections/Highlights'
 const App = () => {
     return (
         <div className="bg-color-white">
-            <header className="bg-black/70 backdrop-blur text-white p-8 fixed w-full right-0 left-0 top-0 text-lg font-bold z-10">
+            <header className="bg-black/70 backdrop-blur text-white p-4 md:p-8 fixed w-full right-0 left-0 top-0 text-lg font-bold z-10">
                 LEXLTC
             </header>
-            <div className="relative drop-shadow-2xl w-full bg-[url('./cover.jpg')] min-h-[600px] bg-cover bg-center"></div>
-            <div className="relative flex justify-center w-full mt-[-150px] mb-4">
+            <div className="relative drop-shadow-2xl w-full bg-[url('./cover.jpg')] h-[300px] md:min-h-[600px] bg-cover bg-center"></div>
+            <div className="relative flex justify-center w-full mt-[-75px] md:mt-[-150px] mb-4">
                 <img
-                    className="border-8 border-white drop-shadow-2xl rounded-full object-none h-[300px] w-[300px]"
+                    className="border-8 border-white drop-shadow-2xl rounded-full object-none h-[150px] w-[150px] md:h-[300px] md:w-[300px]"
                     src={profilePic}
                     alt="lextlc profile"
                     height="300"
                     width="300"
                 />
             </div>
-            <div className="text-center mb-32">
+            <div className="text-center mb-16 md:mb-32">
                 <h2 className="text-[24px] font-extrabold text-gray-700">
                     Xavier Lexus Concepcion
                 </h2>
